@@ -1,0 +1,22 @@
+AUTOMATED MARKET OPENING SCHEDULER DURING COVID
+
+A city has n types of shops. The government wants to create an opening schedule for the markets ensuring the safety of maximum people. Due to the current COVID situation the government wants the people to make minimum movement out of their houses. They have approached you to take your help in order to organize the opening of shops in a best possible schedule. You need to use the power of AI and write a generalized search algorithm to find the best possible schedule.
+The city has m market places which can be opened parallely. In a market place during each time slot the government is planning to open k types of shops. And in a day there are a total of T time slots available. We can assume that n = T.m.k.
+
+Input Format
+
+Line 1: k: total types of shops opening in one time slot in one market
+Line 2: m: number of parallel markets
+Line 3: T: number of time slots
+Line 4: C: trade-off constant
+Starting on the fifth line we have a space separated list of distances between a type of shop and rest others.
+
+Constraints
+
+Your code should not evaluate each and every permutation.
+Trade-off constant can be a float value
+1<= n <= 100
+Max time limit is set to 2 sec.
+Output Format
+
+Space separated list of shop ids (i.e, shop’s type ids), where time slots are separated by bars and parallel markets are separated by line.
