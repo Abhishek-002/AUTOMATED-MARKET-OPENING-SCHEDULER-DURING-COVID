@@ -1,4 +1,4 @@
-# Hill-Climbing
+# Market Scheduler
              ASSIGNMENT-1
 
 We had use the Stochastic hill climbing algorithm approach to solve the given problem.
